@@ -1,4 +1,4 @@
+Starting from the navbar you created in the HTML exercise called 'Navbar', add the CSS properties. The Search button should have a hover effect (background green and white text).
 
-Try to replicate the navbar html structure in the png file, without using CSS properties.
-**Suggestion**
-In order to replicate the navbar html structure, try to use the semantic tag `<nav>`. For the links try to use a not ordered list.
+**Suggestion**:
+Use the classes to apply the CSS rules instead of ids, tags, or inline style.
