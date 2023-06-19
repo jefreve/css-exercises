@@ -7,19 +7,15 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>HTML Lesson</title>
-        <style>
-            label {
-            display: block;
-        }
-        </style>
+        <title>Navbar Exercise</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
+        <nav>    
             <ul>
-                <li>Navbar</li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Link</a></li>
+                <li id="navbar">Navbar</li>
+                <li><a id="home" href="">Home</a></li>
+                <li><a id="link" href="">Link</a></li>
                 <li>
                     <select>
                         <option>Dropdown</option>
@@ -27,14 +23,14 @@
                         <option>Link2</option>
                     </select>
                 </li>
-                <li>Disabled</li>
+                <li id="disabled">Disabled</li>
             </ul> 
             <form>
-                <input type="text" placeholder="Search">
-                <button type="submit">
+                <input id="search-bar" type="text" placeholder="Search">
+                <button id="search-button" type="submit">
                     Search
                 </button>  
-            </form>  
+            </form>        
         </nav>
     </body>
 </html>
