@@ -2,17 +2,12 @@ html {
     font-size: 24px;
 }
 
-
 li {
     list-style: none;
     display: inline-block;
     margin-right: 15px;
     padding: 10px 0;
 }
-
-
-
-
 
 nav {
     width: 100%;
@@ -46,10 +41,18 @@ select {
     font-size: 1em;
     color: rgb(159, 159, 159);
     font-family: inherit;  
+    
 }
 
 #disabled {
     color: rgb(93, 93, 104);
+}
+
+#search-bar {
+    font-size: inherit;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;    
 }
 
 #search-button {
@@ -59,13 +62,11 @@ select {
     color: rgb(37, 106, 37);
     border: 2px solid rgb(37, 106, 37);
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 0 0 0 5px;
+    
 }
 
-#search-bar {
-    font-size: inherit;
-    padding: 10px 15px;
-    border: 0;
-    border-radius: 5px;
-    margin: 10px 10px;
+#right-element {
+   
+    float: right;
 }
